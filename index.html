@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>template 2</title>
+    <!-- font awesome css file  -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- normalization css file  -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="./css/kasper.css" />
+    <!-- google fonts cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300&family=Work+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container navbar">
+        <a href="" class="logo">
+          <img src="./images/logo.png" alt="logo" />
+        </a>
+        <nav>
+          <i class="fas fa-bars toggle-menu"></i>
+          <ul class="nav">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portofolio">portofolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">pricing</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+          <input type="search" class="search" />
+        </nav>
+        <div class="form">
+          <i class="fas fa-search"></i>
+
+          <!-- <i class=""></i> -->
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- start landing -->
+    <div class="landing">
+      <div class="overlay"></div>
+      <div class="text">
+        <div class="content">
+          <h2>
+            Hello World! <br />
+            We Are Kasper We Make Art.
+          </h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+      </div>
+      <i class="fas fa-angle-right change-background right fa-2x"></i>
+      <i class="fas fa-angle-left change-background left fa-2x"></i>
+      <ul class="bullets">
+        <li></li>
+        <li class="active"></li>
+        <li></li>
+      </ul>
+    </div>
+    <!-- end landing -->
+    <!-- start service -->
+    <div class="services padd-100" id="services">
+      <div class="container">
+        <div class="main-heading">
+          <h2>services</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="services-container">
+          <div class="serve">
+            <i class="fas fa-desktop fa-3x"></i>
+            <div class="service-info">
+              <h2>Vorem amet intuitive</h2>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam
+              </p>
+            </div>
+          </div>
+          <div class="serve">
+            <i class="fas fa-cog fa-3x"></i>
+            <div class="service-info">
+              <h2>Vorem amet intuitive</h2>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam
+              </p>
+            </div>
+          </div>
+          <div class="serve">
+            <i class="fas fa-pencil-ruler fa-3x"></i>
+            <div class="service-info">
+              <h2>Vorem amet intuitive</h2>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam
+              </p>
+            </div>
+          </div>
+          <div class="serve">
+            <i class="fas fa-camera fa-3x"></i>
+            <div class="service-info">
+              <h2>Vorem amet intuitive</h2>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end services -->
+    <!-- start design -->
+    <div class="design padd-100">
+      <div class="image">
+        <img src="./images/mobile.png" alt="" />
+      </div>
+      <div class="design-info">
+        <h2>OUR DESIGN COMES WITH..</h2>
+        <ul>
+          <li>Responsive Design</li>
+          <li>Modern And Clean Design</li>
+          <li>Clean Code</li>
+          <li>Browser Friendly</li>
+        </ul>
+      </div>
+    </div>
+    <!-- end design -->
+    <!-- portofolio start -->
+    <div class="portoflio padd-100" id="portofolio">
+      <div class="container">
+        <div class="main-heading">
+          <h2>portoflio</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="head">
+          <ul>
+            <li class="active btn" data-filter="all">All</li>
+            <li class="btn" data-filter="app">App</li>
+            <li class="btn" data-filter="photo">photo</li>
+            <li class="btn" data-filter="web">web</li>
+            <li class="btn" data-filter="print">print</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="box app">
+          <img src="./images/shuffle-01.jpg" alt="" />
+          <div class="caption">
+            <h4>Awsome image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box photo">
+          <img src="./images/shuffle-02.jpg" alt="" />
+          <div class="caption">
+            <h4>Awsome image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box web">
+          <img src="./images/shuffle-03.jpg" alt="" />
+          <div class="caption">
+            <h4>Awsome image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box print">
+          <img src="./images/shuffle-04.jpg" alt="" />
+          <div class="caption">
+            <h4>Awsome image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box web">
+          <img src="./images/shuffle-05.jpg" alt="" />
+          <div class="caption">
+            <h4>Awsome image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box photo">
+          <img src="./images/shuffle-06.jpg" alt="" />
+          <div class="caption">
+            <h4>Awsome image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box app">
+          <img src="./images/shuffle-07.jpg" alt="" />
+          <div class="caption">
+            <h4>Awsome image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+        <div class="box app">
+          <img src="./images/shuffle-08.jpg" alt="" />
+          <div class="caption">
+            <h4>Awsome image</h4>
+            <p>photography</p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="more">More</a>
+    </div>
+    <!-- portofolio end  -->
+    <!-- start video -->
+    <div class="video">
+      <video autoplay muted loop>
+        <source src="./images/awesome-video.mp4" type="video/mp4" />
+      </video>
+      <div class="text">
+        <h2>SUPER AWESOME VIDEO HERE</h2>
+        <p>Its All You Need</p>
+        <button>See More</button>
+      </div>
+    </div>
+    <!-- end video -->
+    <!-- start about -->
+    <div class="about padd-100" id="about">
+      <div class="main-heading">
+        <h2>ABOUT US</h2>
+        <p>
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+      <img src="./images/about.png" alt="" />
+    </div>
+    <!-- end about -->
+    <!-- start statistics -->
+    <div class="statistics">
+      <div class="container">
+        <div class="statis">
+          <i class="fas fa-mug-hot"></i>
+          <h1>1.236</h1>
+          <h5>Coffee Drink</h5>
+        </div>
+        <div class="statis">
+          <i class="far fa-folder"></i>
+          <h1>256</h1>
+          <h5>Completed project</h5>
+        </div>
+        <div class="statis">
+          <i class="far fa-envelope"></i>
+          <h1>1.743</h1>
+          <h5>Mail sent</h5>
+        </div>
+        <div class="statis">
+          <i class="fas fa-trophy"></i>
+          <h1>17</h1>
+          <h5>Award Received</h5>
+        </div>
+      </div>
+    </div>
+    <!-- end statistics -->
+    <!-- start information -->
+    <div class="information padd-100">
+      <div class="container">
+        <div class="box left">
+          <h2>TESTIMONIALS</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+          <div class="left-info">
+            <img src="./images/skills-01.jpg" alt="" />
+            <div class="caption">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt.
+
+              <h5>John Doe, CEO</h5>
+            </div>
+          </div>
+          <div class="left-info">
+            <img src="./images/skills-02.jpg" alt="" />
+            <div class="caption">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt.
+
+              <h5>John Doe, CEO</h5>
+            </div>
+          </div>
+          <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="box right">
+          <h2>SKILLS</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+          <div class="skills-item">
+            <h3>ADOBE</h3>
+            <div class="progress">
+              <div class="progress-in" style="width: 90%"></div>
+              <div class="skill-percent">90%</div>
+            </div>
+          </div>
+          <div class="skills-item">
+            <h3>HTML & CSS</h3>
+            <div class="progress">
+              <div class="progress-in" style="width: 85%"></div>
+              <div class="skill-percent">85%</div>
+            </div>
+          </div>
+          <div class="skills-item">
+            <h3>JAVASCRIPT</h3>
+            <div class="progress">
+              <div class="progress-in" style="width: 80%"></div>
+              <div class="skill-percent">80%</div>
+            </div>
+          </div>
+          <div class="skills-item">
+            <h3>PHP</h3>
+            <div class="progress">
+              <div class="progress-in" style="width: 90%"></div>
+              <div class="skill-percent">90%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end information -->
+    <!-- start quote -->
+    <div class="quote padd-100">
+      <div class="container">
+        <q>
+          accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+          elit, eget tincidunt.
+        </q>
+        <span>John Doe</span>
+      </div>
+    </div>
+    <!-- end quote -->
+    <!-- strat pricing -->
+    <div class="pricing padd-100" id="pricing">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Pricing</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="prices">
+          <div class="price">
+            <div class="head">
+              <h3>Basic</h3>
+              <span>19</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+            </ul>
+            <div class="foot">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="price">
+            <div class="head">
+              <h3>Basic</h3>
+              <span>19</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+            </ul>
+            <div class="foot">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="price">
+            <div class="head">
+              <h3>Basic</h3>
+              <span>19</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+            </ul>
+            <div class="foot">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="price">
+            <div class="head">
+              <h3>Basic</h3>
+              <span>19</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+            </ul>
+            <div class="foot">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="price-contact">
+          <p>Contact us if you have special request</p>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <!-- end pricing -->
+    <!-- start subscribe -->
+    <div class="subscribe padd-100">
+      <div class="container">
+        <form
+          action="
+        "
+        >
+          <i class="far fa-envelope fa-lg"></i>
+          <input type="text" placeholder="Your email" name="email" />
+          <input type="submit" value="submit" />
+        </form>
+        <p>
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blan dit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+    </div>
+    <!-- end subscribe -->
+    <!-- start contact -->
+    <div class="contact padd-100" id="contact">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Contact Us</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="contact-section">
+          <div class="contact-map">
+            <iframe
+              style="width: 100%; height: 100%"
+              src="https://maps.google.com/maps?q=30.044420,31.235712&hl=es;&z=10&amp&output=embed"
+            ></iframe>
+          </div>
+          <div class="contact-info">
+            <div class="con">
+              <i class="fa-brands fa-whatsapp"></i>
+              <a href="whatsapp://send?abid=01127451505">01127451505</a>
+            </div>
+            <hr />
+            <div class="con">
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/hisham-atef-49a365247/"
+                >Hisham Atef</a
+              >
+            </div>
+            <hr />
+            <div class="con">
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/HishamAtef55">Hisham Atef</a>
+            </div>
+            <hr />
+            <div class="con">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="hishamatef50@gmail.com">Hisham Atef</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <div class="footer">
+      <div class="container">
+        <h3>WE ARE SOCIAL</h3>
+
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <p>© 2021 <span>Kasper</span> All Right Reserved</p>
+      </div>
+    </div>
+    <a href="#" class="to-top">
+      <i class="fa fa-angle-double-up"></i>
+    </a>
+    <!-- end footer -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
